@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.dobidemotesting.DobiDemoSalesTest2
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.48 s <<< FAILURE! -- in com.mycompany.dobidemotesting.DobiDemoSalesTest2
+com.mycompany.dobidemotesting.DobiDemoSalesTest2.testHandlingPayments_NegativeOverpayment -- Time elapsed: 12.01 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: DEFECT TRAPPED: Sistem membenarkan lebihan bayaran (Overpayment) disimpan tanpa memaparkan amaran ralat alert! ==> expected: <false> but was: <true>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertFalse.failNotFalse(AssertFalse.java:63)
+	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:36)
+	at org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:239)
+	at com.mycompany.dobidemotesting.DobiDemoSalesTest2.testHandlingPayments_NegativeOverpayment(DobiDemoSalesTest2.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
